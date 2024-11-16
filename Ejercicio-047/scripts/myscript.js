@@ -20,3 +20,28 @@
 *
 *
 ***************************************************************************************************************/
+const productos = [
+    {
+        producto:"patata",
+        precio:0.99,
+        cantidad:5
+    },
+    {
+        producto:"leche",
+        precio:1.5,
+        cantidad:6
+    },
+    {
+        producto:"botella de agua",
+        precio:0.25,
+        cantidad:2
+    }
+]
+
+let suma=0
+
+productos.forEach(el => {
+    suma+=(el.precio*el.cantidad)
+});
+
+console.log(`La suma del importe de la lista de la compra es: ${suma}`);
