@@ -1,0 +1,54 @@
+{
+    "ciclos":[
+        {
+            "id":1,
+            "ciclo":"Administración de Sistemas Informáticos en Red"
+        },
+        {
+            "id":2,
+            "ciclo":"Desenvolvemento de Aplicacións Multiplataforma"
+        },
+        {
+            "id":3,
+            "ciclo":"Desenvolvemento de Aplicacións Web"
+        }
+    ],
+    "alumnos":[
+        {
+            "id":1,
+            "nombre":"Juan Morales García",
+            "nif":"11111111-A",
+            "proyecto":"Sistemas de monitorizacion",
+            "ciclo":"1",
+            "fecha":"2021-01-11",
+            "hora":"16:10"
+        },
+        {
+            "id":2,
+            "nombre":"Ana Martínez Alonso",
+            "nif":"22222222-A",
+            "proyecto":"Agentes",
+            "ciclo":"2",
+            "fecha":"2022-02-2",
+            "hora":"17:20"
+        },
+        {
+            "id":3,
+            "nombre":"Pepe Martinez",
+            "nif":"33333333-A",
+            "proyecto":"Next.js",
+            "ciclo":"3",
+            "fecha":"2022-03-30",
+            "hora":"18:30"
+        },
+        {
+            "id":4,
+            "nombre":"Rosa Romero",
+            "nif":"44444444-A",
+            "proyecto":"Sistemas de clonado multicast",
+            "ciclo":"1",
+            "fecha":"2022-04-14",
+            "hora":"19:40"
+        }
+    ]
+}
